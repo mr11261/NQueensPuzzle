@@ -12,7 +12,7 @@ public:
     explicit ChessBoard(size_t n);
 
 protected:
-    void draw(sf::RenderTarget& target, sf::RenderStates state) const;
+    void draw(sf::RenderTarget &target, sf::RenderStates state) const;
 
 private:
     sf::Vector2f mUpperLeft{20.f, 20.f};
